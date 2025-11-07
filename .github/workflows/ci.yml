@@ -24,7 +24,7 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Build with Grandle
-        run: ./granlew clean build
+        run: ./gradlew clean build
 
       - name: Run test
-        run: ./grandlew test
+        run: ./gradlew test
