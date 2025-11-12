@@ -2,6 +2,7 @@
 FROM gradle:8.4-jdk17 as build
 WORKDIR /app
 COPY . .
+RUN chmod +x ./gradlew
 RUN ./gradlew clean bootJar --no-daemon
 
 # Etapa 2: Run
