@@ -33,6 +33,8 @@ dependencies {
 
     // Dependencias de test de Spring Boot
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    runtimeOnly('com.h2database:h2')
 }
 
 tasks.named('test') {
