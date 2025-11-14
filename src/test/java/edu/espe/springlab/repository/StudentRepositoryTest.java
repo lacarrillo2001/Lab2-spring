@@ -11,7 +11,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 @DataJpaTest
 public class StudentRepositoryTest {
-    @Autowired
+    @Autowired      
     private StudentRepository Repository;
 
     @Test
